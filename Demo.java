@@ -10,7 +10,6 @@ public class Demo {
         //DEMOBRANCH:First commit for step 7
         //DEMOBRANCH:Second commit for step 7
         //DEMOBRANCH:First commit for step 8
-        //DEMOBRANCH:Second commit for step 8
 
     }
 }

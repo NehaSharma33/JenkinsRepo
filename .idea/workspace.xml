@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ef5c580-9a4c-4e17-bf61-ec628df4b9ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestngDemoProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyFunctionalityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CustomRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFunctionalityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFunctionalityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,9 +35,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2eXW32iP6iQa8K3l7lPZ7VGJYs9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,13 +46,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CustomRunner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.C:/Users/neha_sharma3/Cloned Project/TestngDemoProject/testng.xml.executor": "Run",
-    "git-widget-placeholder": "master",
+    "TestNG.MyFunctionalityTest.testDivisionByZero.executor": "Run",
+    "git-widget-placeholder": "calculatorTestngTask",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/neha_sharma3/Downloads/jcommander-1.69.jar",
+    "last_opened_file_path": "C:/Users/neha_sharma3/Downloads/testng-6.14.3.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,7 +67,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CustomRunner">
+    <configuration name="CustomRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CustomRunner" />
+      <module name="TestngDemoProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/neha_sharma3/Cloned Project/TestngDemoProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestngDemoProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -77,9 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyFunctionalityTest.testDivisionByZero" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestngDemoProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyFunctionalityTest" />
+      <option name="METHOD_NAME" value="testDivisionByZero" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomRunner" />
         <item itemvalue="TestNG.C:/Users/neha_sharma3/Cloned Project/TestngDemoProject/testng.xml" />
+        <item itemvalue="TestNG.MyFunctionalityTest.testDivisionByZero" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +120,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712051203916</updated>
-      <workItem from="1712051205142" duration="4713000" />
+      <workItem from="1712051205142" duration="5426000" />
+      <workItem from="1712071215551" duration="535000" />
+      <workItem from="1712115890535" duration="3856000" />
     </task>
     <servers />
   </component>

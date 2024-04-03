@@ -2,29 +2,33 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="31" started-at="2024-04-03T07:01:51Z" finished-at="2024-04-03T07:01:51Z">
+  <suite name="Command line suite" duration-ms="18" started-at="2024-04-03T08:16:36Z" finished-at="2024-04-03T08:16:36Z">
     <groups>
       <group name="regression">
-        <method signature="MyFunctionalityTest.testDivisionByZero()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testDivisionByZero" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testMultiplicationNegative()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testMultiplicationNegative" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testSubtractionNegative()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testSubtractionNegative" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testDivisionByZero()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testDivisionByZero" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testMultiplicationNegative()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testMultiplicationNegative" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testSubtractionNegative()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testSubtractionNegative" class="org.example.MyFunctionalityTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="MyFunctionalityTest.testAdditionData(int, int, int)[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testAdditionData" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testAdditionNegative()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testAdditionNegative" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testAdditionPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testAdditionPositive" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testDivisionPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testDivisionPositive" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testMultiplicationPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testMultiplicationPositive" class="org.example.MyFunctionalityTest"/>
-        <method signature="MyFunctionalityTest.testSubtractionPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testSubtractionPositive" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testAdditionData(int, int, int)[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testAdditionData" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testAdditionNegative()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testAdditionNegative" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testAdditionPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testAdditionPositive" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testDivisionPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testDivisionPositive" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testMultiplicationPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testMultiplicationPositive" class="org.example.MyFunctionalityTest"/>
+        <method signature="MyFunctionalityTest.testSubtractionPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testSubtractionPositive" class="org.example.MyFunctionalityTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Command line test" duration-ms="31" started-at="2024-04-03T07:01:51Z" finished-at="2024-04-03T07:01:51Z">
+    <test name="Command line test" duration-ms="18" started-at="2024-04-03T08:16:36Z" finished-at="2024-04-03T08:16:36Z">
       <class name="org.example.MyFunctionalityTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="setUp" is-config="true" duration-ms="13" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="setUpReport" is-config="true" duration-ms="185" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="setUp" is-config="true" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAdditionData(int, int, int)[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testAdditionData" duration-ms="2" started-at="2024-04-03T12:31:51Z" data-provider="testData" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="testAdditionData(int, int, int)[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testAdditionData" duration-ms="7" started-at="2024-04-03T13:46:36Z" data-provider="testData" finished-at="2024-04-03T13:46:36Z">
           <params>
             <param index="0">
               <value>
@@ -45,18 +49,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdditionData -->
-        <test-method status="PASS" signature="testAdditionNegative()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testAdditionNegative" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="testAdditionNegative()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testAdditionNegative" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAdditionNegative -->
-        <test-method status="PASS" signature="testDivisionByZero()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testDivisionByZero" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="testAdditionPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testAdditionPositive" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionPositive -->
+        <test-method status="PASS" signature="testDivisionByZero()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testDivisionByZero" duration-ms="1" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <exception class="java.lang.ArithmeticException">
             <message>
               <![CDATA[/ by zero]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.ArithmeticException: / by zero
-	at org.example.MyFunctionalityTest.testDivisionByZero(MyFunctionalityTest.java:77)
+	at org.example.MyFunctionalityTest.testDivisionByZero(MyFunctionalityTest.java:97)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -85,34 +93,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDivisionByZero -->
-        <test-method status="PASS" signature="testAdditionPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testAdditionPositive" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAdditionPositive -->
-        <test-method status="PASS" signature="testDivisionPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testDivisionPositive" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDivisionPositive -->
-        <test-method status="PASS" signature="testMultiplicationPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testMultiplicationPositive" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMultiplicationPositive -->
-        <test-method status="PASS" signature="testMultiplicationNegative()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testMultiplicationNegative" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="testMultiplicationNegative()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testMultiplicationNegative" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMultiplicationNegative -->
-        <test-method status="PASS" signature="testSubtractionNegative()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testSubtractionNegative" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="testDivisionPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testDivisionPositive" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionPositive -->
+        <test-method status="PASS" signature="testSubtractionNegative()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testSubtractionNegative" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtractionNegative -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="tearDown" is-config="true" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        <test-method status="PASS" signature="testMultiplicationPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testMultiplicationPositive" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testSubtractionPositive()[pri:0, instance:org.example.MyFunctionalityTest@3caeaf62]" name="testSubtractionPositive" duration-ms="0" started-at="2024-04-03T12:31:51Z" finished-at="2024-04-03T12:31:51Z">
+        </test-method> <!-- testMultiplicationPositive -->
+        <test-method status="PASS" signature="testSubtractionPositive()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="testSubtractionPositive" duration-ms="1" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubtractionPositive -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="tearDown" is-config="true" duration-ms="0" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownReport()[pri:0, instance:org.example.MyFunctionalityTest@4141d797]" name="tearDownReport" is-config="true" duration-ms="286" started-at="2024-04-03T13:46:36Z" finished-at="2024-04-03T13:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
       </class> <!-- org.example.MyFunctionalityTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
